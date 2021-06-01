@@ -14,10 +14,12 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 import { MatButtonModule, MatCardModule } from '@angular/material';
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    DishdetailComponent
   ],
   imports: [
     BrowserModule,
